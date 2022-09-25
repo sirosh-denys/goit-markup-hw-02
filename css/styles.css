@@ -1,3 +1,7 @@
+:root {
+  --accent-color: #2196f3;
+}
+
 .list {
   list-style: none;
 }
@@ -6,10 +10,24 @@
   text-decoration: none;
 }
 
+img {
+  display: block;
+}
+
+button{
+  cursor: pointer;
+  font-family: inherit;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #212121;
+}
+
 .logo {
   font-family: 'Raleway', sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -17,7 +35,6 @@
 }
 
 .logo-blue-fragment {
-  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
@@ -27,22 +44,19 @@
 }
 
 .mainmenu-item-link {
-  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: #212121;
+  letter-spacing: 0.02em;  
 }
 
 .mainmenu-item-link:hover,
 .mainmenu-item-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .header-contacts-link {
-  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -53,7 +67,7 @@
 
 .header-contacts-link:hover,
 .header-contacts-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .hero {
@@ -61,7 +75,6 @@
 }
 
 .main-title {
-  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -73,22 +86,33 @@
 }
 
 .modal-button {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87x;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;    
+}
+
+.modal-button:hover,
+.modal-button:focus
+ {
+  background-color: #188CE8;
 }
 
 .feature-item-header {
-  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #212121;
+  text-transform: uppercase;  
 }
 
-.feature-item-description {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
+.feature-item-description {  
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -97,12 +121,67 @@
 }
 
 .aboutus-header {
-  font-family: 'Roboto', sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.67;
   text-align: center;
+  letter-spacing: 0.03em;  
+}
+
+.team-header {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.67;
+  text-align: center;
+  letter-spacing: 0.03em;  
+}
+
+.team-card-name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;  
+  text-align: center;
+  letter-spacing: 0.03em;      
+}
+
+.team-card-job-title {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: #757575;
+}
+
+.footer {  
+  background: #2F303A;
+}
+
+.footer-logo {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+}
+
+.footer-address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 2;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+}
+
+.footer-contacts-item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 2;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
