@@ -89,12 +89,13 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.87x;
+    line-height: 1.87;
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: #FFFFFF;    
+    color: #FFFFFF;  
+    background-color: #2196F3;         
 }
 
 .modal-button:hover,
@@ -155,8 +156,38 @@ body {
   color: #757575;
 }
 
+.filter-button{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;  
+  background-color: #F5F4FA;
+  border-radius: 4px;
+}
+.filter-button:hover,
+.filter-button:focus{
+  background: var(--accent-color);
+}
+
+.portfolio-card-name{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;  
+}
+
+.portfolio-card-description{    
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
 .footer {  
-  background: #2F303A;
+  background-color: #2F303A;
 }
 
 .footer-logo {
