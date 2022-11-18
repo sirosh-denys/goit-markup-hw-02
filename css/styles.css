@@ -22,6 +22,10 @@ button{
 body {
   font-family: 'Roboto', sans-serif;
   color: #212121;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  background-color: #FFFFFF;
+  font-weight: normal;
 }
 
 .logo {
@@ -29,8 +33,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
+  line-height: 1.19;  
   color: #000000;
 }
 
@@ -38,17 +41,16 @@ body {
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
+  line-height: 1.19;  
   color: #2196f3;
 }
 
 .mainmenu-item-link {
   font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
+  font-weight: 500;  
   line-height: 1.14;
   letter-spacing: 0.02em;  
+  color: #212121;
 }
 
 .mainmenu-item-link:hover,
@@ -58,8 +60,7 @@ body {
 
 .header-contacts-link {
   font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
+  font-weight: 500;  
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
@@ -104,20 +105,29 @@ body {
   background-color: #188CE8;
 }
 
+.vusual-hidden{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .feature-item-header {
   font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
+  font-weight: bold;  
+  line-height: 1.14;  
   text-transform: uppercase;  
 }
 
-.feature-item-description {  
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+.feature-item-description {      
+  line-height: 1.71;  
   color: #757575;
 }
 
@@ -126,8 +136,11 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.67;
-  text-align: center;
-  letter-spacing: 0.03em;  
+  text-align: center;   
+}
+
+.team{
+  background: #F5F4FA;
 }
 
 .team-header {
@@ -135,8 +148,7 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.67;
-  text-align: center;
-  letter-spacing: 0.03em;  
+  text-align: center;   
 }
 
 .team-card-name {
@@ -144,15 +156,13 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;  
-  text-align: center;
-  letter-spacing: 0.03em;      
+  text-align: center;       
 }
 
 .team-card-job-title {
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
-  letter-spacing: 0.03em;
+  text-align: center;  
   color: #757575;
 }
 
@@ -161,10 +171,10 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
-  text-align: center;
-  letter-spacing: 0.03em;  
+  text-align: center;    
   background-color: #F5F4FA;
   border-radius: 4px;
+  color: #212121;
 }
 .filter-button:hover,
 .filter-button:focus{
@@ -181,8 +191,7 @@ body {
 
 .portfolio-card-description{    
   font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.03em;
+  line-height: 1.87;  
   color: #757575;
 }
 
@@ -195,24 +204,19 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
+  line-height: 1.19;  
   color: #FFFFFF;
 }
 
 .footer-address {
-  font-style: normal;
-  font-size: 14px;
-  line-height: 2;
-  letter-spacing: 0.03em;
+  font-style: normal;  
+  line-height: 2;  
   color: #FFFFFF;
 }
 
 .footer-contacts-item {
   font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 2;
-  letter-spacing: 0.03em;
+  font-weight: 400;  
+  line-height: 2;  
   color: rgba(255, 255, 255, 0.6);
 }
